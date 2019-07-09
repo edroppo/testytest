@@ -1,0 +1,677 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+<style type="text/css">
+	
+body {
+    margin: 0 !important;
+    padding: 0;
+}
+table {
+    border-spacing: 0;
+    font-family: arial, sans-serif;
+    color: #000000;
+}
+td {
+    padding: 0;
+	font-family: arial, sans-serif;
+}
+img {
+    border: 0;
+}
+div[style*="margin: 16px 0"] { 
+    margin:0 !important;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.webkit {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.outer {
+	Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+
+}
+.inner shaded {
+	Margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+	background-color: #dfe4e8;
+}		
+.full-width-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.inner {
+	padding: 0px 45px 0px 45px;
+}
+
+.innerleft {
+	padding: 0px 0px 0px 40px;
+}
+
+
+.innerfoot {
+	padding: 40px 0px 15px 0px;
+}
+
+p {
+    Margin: 0px;
+}
+a {
+    color: #6A737B;
+    text-decoration: none;
+}
+	
+p.preheader {
+	font-size: 9px;
+	line-height: 10px;
+	color: #6A737B;
+	Margin-bottom: 15px;
+}
+.one-column p.hairline {
+	font-size: 10px;
+	line-height: 10px;
+}
+.inner p.h1 {
+    font-size: 20px;
+	color: #F8971D;
+    font-weight: bold;
+	line-height: 22px;
+    Margin-bottom: 18px;
+}
+.inner p.head {
+	font-size: 26px; 
+	color: #ffffff; 
+	font-weight: bold; 
+	line-height: 29px;
+}
+
+.inner p.h2 {
+    font-size: 18px;
+	color: #F8971D;
+    font-weight: bold;
+	line-height: 22px;
+    Margin-bottom: 12px;
+}
+
+.inner p.footnote {
+	font-size: 12px;
+	line-height: 14px;
+	Margin-bottom: 12px;
+}
+
+.inner p.body {
+	font-size: 16px;
+	color: #000000;
+	line-height: 20px;
+}
+		
+.legal {
+	font-size: 12px;
+	font-weight: normal;
+	Margin-bottom: 8px;
+	line-height: 12px;
+	color: #6A737B;
+}
+.footertitle {
+	font-size: 16px;
+	Margin-bottom: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #6A737B;
+}
+p.body {
+	font-size: 16px;
+	color: #000000;
+	line-height: 18px;
+}
+
+.references {
+	font-size: 12px;
+	font-weight: normal;
+	color: #6A737B;
+	line-height: 18px;
+}
+/* One column layout */
+.one-column .contents {
+    text-align: left;
+}
+.one-column p {
+    font-size: 16px;
+    Margin-bottom: 10px;
+}
+.one-column img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.one-column .shaded {
+    text-align: left;
+	background-color: #dfe4e8;
+}
+	
+/*Two column layout*/
+.two-column {
+text-align: center;
+    font-size: 0;
+}
+
+.two-column .column {
+width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+	margin-bottom: 15px;
+}
+.contents {
+width: 100%;
+}
+.two-column .contents {
+	font-size: 16px;
+    text-align: left;
+}
+.two-column img {
+    height: auto;
+}
+.two-column .text {
+    padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+}
+
+
+.three-column {
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.three-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.three-column .contents {
+    font-size: 14px;
+    text-align: left;
+}
+.three-column img {
+    max-width: 35px;
+    height: auto;
+}
+.three-column .text {
+    padding-top: 10px;
+}
+
+	/* Left sidebar layout */
+.left-sidebar {
+	text-align: center;
+    font-size: 0;
+}
+.left-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.left-sidebar .left {
+    max-width:205px;
+}
+.left-sidebar .right {
+    max-width: 395px;
+}
+.left-sidebar .img {
+    width: 100%;
+    max-width: 205px;
+    height: auto;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 420px) {
+
+.outer {
+    width: 95% !important;
+	}
+.three-column .column {
+        max-width: 100% !important;
+		text-align: center !important; 
+    }
+.two-column img {
+        max-width: 100% !important;
+    }
+.three-column img {
+        max-width: 50% !important;
+    }
+.three-column .contents {
+    text-align: center !important;
+	}
+.inner {
+	padding: 0px 15px 0px 15px !important;
+	}
+.innerleft {
+	padding: 0px 0px 0px 15px !important;
+}
+
+	
+.inner img {
+		max-width: 180px;
+		height: auto;
+	}
+	
+.inner p.head {
+	font-size: 22px; 
+	color: #ffffff; 
+	font-weight: bold; 
+	line-height: 25px;
+	}
+	
+
+}
+	
+@media screen and (min-width: 421px)  and (max-width: 620px) {
+	.three-column .column {
+        max-width: 33% !important;
+    }
+    .two-column .column {
+        max-width: 50% !important;
+    }
+	
+
+}
+	
+
+	</style>
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse;}
+    </style>
+    <![endif]-->
+</head>
+<body>
+	<custom name="opencounter" type="tracking">
+<center class="wrapper">
+   <div class="webkit">
+	<!--[if (gte mso 9)|(IE)]>
+	<table width="600" align="center">
+	<tr>
+	<td>
+	<![endif]-->
+	<table class="outer" align="center">
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td><p class="hairline">&nbsp;</p></td>
+							<td><p class="hairline">&nbsp;</p></td>
+						</tr>
+						<tr>
+							<td align="left"><p class="preheader">Gain clarity with the Oncotype DX Genomic Prostate Score<span style="font-size:50%;line-height:0;vertical-align:4px;">&reg;</span> assay</p></td>
+							<td align="right">
+							<p class="preheader"><a href="#">View in web browser</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="one-column">
+					<table width="100%">
+						<tr>
+							<td style="border-top:1px solid #6a737b" height="0px">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="one-column">
+					<table align="center">
+						<tr>
+							<td style="font-size: 20px; line-height:20px">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="inner contents">
+								<img src="http://www.pharma-emails.com/genomichealth/GHURO20712/ghi_gps_logo.gif" width="381" height="45" style="max-width:381px; max-height:45px;" alt="" />
+							</td>
+						</tr>
+						<tr>
+							<td style="font-size: 30px; line-height:30px">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="one-column">
+					<table width="100%" style="background-color:#f8971d">
+						<tr>						
+							<td style="font-size:25px; line-height:25px;">&nbsp;</td>					
+							<td class="innerpad" valign="top">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="inner contents" style="vertical-align: middle;">
+								<p class="head" style="display: inline;">Navigate treatment decisions for your GS 3+3 and 3+4&nbsp;patients</p>
+							</td>
+							<td class="innerpad" valign="top">&nbsp;</td>
+						</tr>
+						<tr>						
+							<td style="font-size: 25px; line-height:25px">&nbsp;</td>
+							<td class="innerpad" valign="top">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%">
+				<table width="100%"  style="background-color:#eff2f4;">
+							<tr>
+								<td style="line-height:35px; font-size: 35px;">&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="inner contents">
+									<p class="h2">The Oncotype DX Genomic Prostate Score<span style="font-size:50%;line-height:0;vertical-align:6px">&reg;</span> (GPS<span style="font-size:50%;line-height:0;vertical-align:6px">&trade;</span>) assay is an independent predictor of 3 clinical endpoints—all of which are included in the GPS report</p>
+								</td>
+							</tr>
+							<tr>
+								<td style="font-size:25px; line-height:25px">&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">
+									<table style="background-color:#00b0b9; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;">
+									<tr style="border-collapse:collapse;">
+										<td align="center" style="padding:10px 20px;"><a href="https://www.oncotypeiq.com/en-US/prostate-cancer/healthcare-professionals/oncotype-dx-genomic-prostate-score/interpreting-the-results?utm_source=email&utm_medium=email&utm_campaign=GHI40281_0119&utm_content=interpreting_results" style="font-weight:bold; font-size:15px;letter-spacing: .5px; color:#ffffff; text-decoration:none;" target="_blank">SEE THE GPS REPORT</a>
+										</td>
+									 </tr>
+									</table>
+								</td>
+				  			</tr>
+							<tr>
+								<td style="font-size:40px; line-height:40px">&nbsp;</td>
+							</tr>
+
+					
+							<tr>
+								<td class="left-sidebar">
+										<!--[if (gte mso 9)|(IE)]>
+										<table width="100%">
+										<tr>
+										<td width="205">
+										<![endif]-->
+									<div class="column left">
+									<table width="100%">
+									
+										<tr>
+											<td class="innerleft">
+												<img src="http://www.pharma-emails.com/genomichealth/GHURO20712/tumor_aggr.gif" height="119" width="205" />
+											</td>
+										</tr>
+
+									</table>
+
+								</div>  
+									<!--[if (gte mso 9)|(IE)]>
+										</td><td width="395">
+										<![endif]-->
+								<div class="column right">
+									<table width="100%">
+										<tr>
+											<td class="inner contents">
+												<table width="100%">
+										
+											<tr>
+												<td valign="top" align="right"><p class="body"><span style="color:#F8971D;">&bull;&nbsp;</span></p></td>
+												<td align="left"><p class="body">Validated as an independent predictor of adverse pathology, the most immediate and actionable endpoint in patient management<span style="font-size:50%;line-height:0;vertical-align:6px;">1,2</span></p></td>
+											</tr>
+											<tr>
+												<td align="left" style="line-height: 10px;">&nbsp;</td>
+												<td align="left" style="line-height: 10px;">&nbsp;</td>
+											</tr>	
+											<tr>
+												<td valign="top" align="right"><p class="body"><span style="color:#F8971D;">&bull;&nbsp;</span></p>
+												</td>
+												<td align="left"><p class="body">Identifies tumor aggressiveness to personalize treatment decisions</p></td>
+
+											</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</div>        
+								<!--[if (gte mso 9)|(IE)]>
+								</td>
+								</tr>
+								</table>
+								<![endif]-->
+							</td>
+					</tr>
+										<tr>						
+												<td style="line-height:40px;font-size:40px;">&nbsp;</td>
+										</tr>
+					<tr>
+						<td class="left-sidebar">
+								<!--[if (gte mso 9)|(IE)]>
+								<table width="100%">
+								<tr>
+								<td width="205">
+								<![endif]-->
+						<div class="column left">
+							<table width="100%">
+								
+								<tr>
+									<td class="innerleft">
+										<img src="http://www.pharma-emails.com/genomichealth/GHURO20712/clin_risk.gif" height="196" width="205" />
+									</td>
+								</tr>
+							<tr>						
+								<td style="line-height:10px;font-size:10px;">&nbsp;</td>
+							</tr>
+									
+							</table>
+						</div>  
+							<!--[if (gte mso 9)|(IE)]>
+								</td><td width="395">
+								<![endif]-->
+						<div class="column right">
+							<table width="100%">
+								<tr>
+											<td class="inner contents">
+												<table width="100%">
+								
+											<tr>
+												<td valign="top" align="right"><p class="body"><span style="color:#F8971D;">&bull;&nbsp;</span></p></td>
+												<td align="left"><p class="body">Validated as an independent predictor of prostate cancer death and metastasis within 10 years after radical prostatectomy<span style="font-size:50%;line-height:0;vertical-align:6px;">3</span></p></td>
+											</tr>
+											<tr>
+												<td align="left" style="line-height: 10px;">&nbsp;</td>
+												<td align="left" style="line-height: 10px;">&nbsp;</td>
+											</tr>		
+											<tr>
+												<td valign="top" align="right"><p class="body"><span style="color:#F8971D;">&bull;&nbsp;</span></p>
+												</td>
+												<td align="left"><p class="body">Predicts future tumor behavior and helps patients understand long-term prognosis to increase confidence in decision-making<span style="font-size:50%;line-height:0;vertical-align:6px;">3,4</span></p></td>
+											</tr>
+												</table>
+											</td>
+										</tr>
+												
+								</table>
+						</div>    
+								<!--[if (gte mso 9)|(IE)]>
+								</td>
+								</tr>
+								</table>
+								<![endif]-->
+							</td>
+						</tr>
+
+							<tr>						
+							<td style="line-height:30px;font-size:30px;">&nbsp;</td>
+							</tr>
+						</table>
+					</td>
+			</tr>
+			<tr>
+				<td>
+					<table style="background-color:#dfe4e8;" class="contents">
+						<tr>
+							<td style="line-height:40px;font-size:40px;">&nbsp;</td>
+						</tr>
+						<tr>
+							<td>
+								<table>
+								<tr>
+									<td class="inner contents">
+										<table style="background-color:#dfe4e8;">
+												<tr>
+													<td align="center">
+														<p class="h2"><a href="https://www.oncotypeiq.com/en-US/prostate-cancer/healthcare-professionals/oncotype-dx-genomic-prostate-score/interpreting-the-results?utm_source=email&utm_medium=email&utm_campaign=GHI40281_0119&utm_content=interpreting_results" style="font-weight:bold; text-decoration:none;color:#00b2ba;" target="_blank">The GPS assay refines a patient’s risk profile beyond clinical features to help guide Active Surveillance or immediate treatment&nbsp;decisions&nbsp;&raquo;</a></p>
+													</td>
+												</tr>
+												<tr>
+													<td style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+												</tr>
+												<tr>
+
+													<td align="center"><p class="body">To receive updates about genomic testing content and the GPS assay, <a style="text-decoration: underline;color:#233ADA" href="https://www.oncotypeiq.com/en-US/contact/register-for-updates?utm_source=email&utm_medium=email&utm_campaign=GHI40281_1119&utm_content=Register" target="_blank">register</a> with Genomic&nbsp;Health&nbsp;today. </p></td>
+												</tr>
+											<tr>
+													<td style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+												</tr>
+										</table>	
+									</td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color:#ffffff;" class="full-width-image">
+								<img src="http://www.pharma-emails.com/genomichealth/GHURO20712/footer.jpg" width="600" height="auto" alt="Genomic Health and Epic Sciences"/>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+		<td class="two-column">
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="100%">
+						<tr>
+						<td width="50%" valign="top">
+						<![endif]-->
+				<div class="column">
+				<table width="100%">
+						<tr>
+							<td class="inner">
+								<table class="contents">
+											<tr>
+												<td class="innerfoot">
+													<img src="http://www.pharma-emails.com/genomichealth/GHURO20712/customer_service_icon.gif" width="35" height="35" style="max-height:35px; max-width:35px;" alt="" />
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p class="footertitle">Genomic Health<br />
+														Customer Service</p>
+												</td>
+											</tr>
+											<tr>
+											  <td>
+												<p class="legal"><a href="tel:8666626897" style="color:#6A737B;text-decoration:none;">Call Genomic Health&nbsp;&raquo;</a></p>
+												<p class="legal"><a href="mailto:customerservice@genomichealth.com">Email Genomic Health&nbsp;&raquo;</a></p></td>
+											</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</div>        
+					<!--[if (gte mso 9)|(IE)]>
+						</td><td width="50%" valign="top">
+						<![endif]-->
+				<div class="column">
+				<table width="100%">
+						<tr>
+							<td class="inner">
+								<table class="contents">
+											<tr>
+												<td class="innerfoot">
+													<img src="http://www.pharma-emails.com/genomichealth/GHURO20712/connect_icon.gif" width="43" height="35" style="max-height:35px; max-width:35px;" alt="" />
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p class="footertitle">Connect With<br />
+														Genomic Health</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p class="legal"><a href="https://www.oncotypeiq.com/en-US/contact/contact-us?utm_source=email&utm_medium=email&utm_campaign=GHI40281_0119&utm_content=Contact_us" target="_blank">Ask Genomic Health a Question&nbsp;&raquo;</a></p>
+													<p class="legal"><a href="https://twitter.com/oncotypeiq">Follow @OncotypeIQ&nbsp;&raquo;</a></p>
+
+												</td>
+											</tr>
+									</table>
+							</td>
+						</tr>
+					</table>
+				</div>
+		<!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    			</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="100%" class="outer">
+					<tr>
+						<td><p class="hairline">&nbsp;</p></td>
+					</tr>
+					<tr>
+						<td style="border-top:1px solid #6a737b" height="0px">&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="100%">
+					<tr>
+						<td class="innerfoot" align="left">
+							<p class="references">GS = Gleason Score.</p><br />
+						  <p class="references"><strong>References: 1.</strong>&nbsp;Klein et al. <em>Eur Urol.</em> 2014. <strong>2.</strong> Cullen et al. <em>Eur Urol.</em> 2015. <strong>3.</strong>&nbsp;Van Den Eeden et al. <em>Eur&nbsp;Urol.</em>&nbsp;2017. <strong>4.</strong> Badani et al. <em>Urol&nbsp;Pract.</em> 2015.</p>
+						<br />
+						  	<p class="references">Genomic Health, GPS, “Making cancer care smarter,” Oncotype DX, Oncotype DX Genomic Prostate Score, and Oncotype IQ are trademarks of Genomic Health, Inc. All other trademarks are the properties of their respective&nbsp;owners.</p><br />
+						  	<p class="references">© 2019 Genomic Health, Inc. All rights reserved.  GHI40281_0119</p><br />
+							<p class="references">This is a marketing email sent to <strong>[addressee’s email]</strong> from Genomic Health, Inc., 301 Penobscot Dr., Redwood City, CA 94063 United&nbsp;States.</p>
+						  	<br />
+						  	<p class="references"><a style="font-weight:bold;" href="http://placeholder_unsubscribe" alt="Unsubscribe">Unsubscribe</a> if you no longer wish to receive these messages | Read our <a style="font-weight:bold;" href="http://www.genomichealth.com/en-US/privacy_policies/notice_of_privacy_practices?utm_source=email&utm_medium=email&utm_campaign=GHI40281_0119&utm_content=Footer" target="_blank" alt="Privacy Policy">Privacy&nbsp;Policy</a></p>
+					  </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->        
+  </div>
+</center>
+</body>
+</html>
